@@ -1,0 +1,1043 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32532 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program\Unity\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ProJect/Unity Project/2023_Sample/SliverTown
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7779
+Successfully changed project path to: D:/ProJect/Unity Project/2023_Sample/SliverTown
+D:/ProJect/Unity Project/2023_Sample/SliverTown
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29736] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 4271715359 [EditorId] 4271715359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOFFLJI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29736] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 4271715359 [EditorId] 4271715359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOFFLJI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 24.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path D:/Program/Unity/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProJect/Unity Project/2023_Sample/SliverTown/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/Program/Unity/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program/Unity/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002729 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (516ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (57.8 KB). Loaded Objects now: 1849.
+Memory consumption went from 138.9 MB to 138.9 MB.
+Total: 1.526300 ms (FindLiveObjects: 0.068400 ms CreateObjectMapping: 0.016900 ms MarkObjects: 1.375500 ms  DeleteObjects: 0.064800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257882.330754 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/Materials
+  artifactKey: Guid(ae4b18812d296524eab47efb84b0a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/Materials using Guid(ae4b18812d296524eab47efb84b0a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a5a953f1e63fa46fda42d880a740e') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.951141 seconds.
+  path: Assets/PolygonBattleRoyale/Materials
+  artifactKey: Guid(8d5f5b920d5e8b846bbbe061023baa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Materials using Guid(8d5f5b920d5e8b846bbbe061023baa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ded0272c68d4eb64368ac87f93ffa6') in 0.002330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.441178 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_03.fbx
+  artifactKey: Guid(063cba390bf5fdc4e98d887b4c3ba235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_03.fbx using Guid(063cba390bf5fdc4e98d887b4c3ba235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7467ce66a60879120c648e05ffd7589') in 0.118785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392546 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_02.fbx
+  artifactKey: Guid(ba07778564f493f45b827233331b6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Armor_02.fbx using Guid(ba07778564f493f45b827233331b6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e707dd4f2570cdb7a671b17a23f86f8') in 0.012517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.243637 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Helmet_03.fbx
+  artifactKey: Guid(2e1e9afd53aa9df4ab7bd2e4f350eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Helmet_03.fbx using Guid(2e1e9afd53aa9df4ab7bd2e4f350eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498c7fda6380f847cf95aaf5e0555819') in 0.019726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.745205 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_01.fbx
+  artifactKey: Guid(99c42e85cfad1574694894850e1081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_01.fbx using Guid(99c42e85cfad1574694894850e1081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1be0d8c640c6df62dec7015daf641c') in 0.029191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.621345 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_02.fbx
+  artifactKey: Guid(df43318af2868c6438511f8e4fd74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_PickUp_Bag_02.fbx using Guid(df43318af2868c6438511f8e4fd74727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e662248a3164834eb548b47cd80aa4d') in 0.019772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.318070 seconds.
+  path: Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Helmet_01.fbx
+  artifactKey: Guid(3307ae356a855f9409d14bf5e848be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models/Characters/SM_Char_Attach_Helmet_01.fbx using Guid(3307ae356a855f9409d14bf5e848be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e4cbcb405ef11c6e973b4c136ff45e') in 0.014747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.471470 seconds.
+  path: Assets/PolygonBattleRoyale/Models
+  artifactKey: Guid(030b6a81bb4258b44b8e96f58b709c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Models using Guid(030b6a81bb4258b44b8e96f58b709c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b8962c99c07e5b88aaf95faedddc13') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.498246 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(016b41c827e3c7c489b631e3e148fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(016b41c827e3c7c489b631e3e148fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30a85d6518c216a07d28371b2a68b9e') in 0.006112 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.8 KB). Loaded Objects now: 1864.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.376800 ms (FindLiveObjects: 0.113100 ms CreateObjectMapping: 0.030200 ms MarkObjects: 2.215100 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.8 KB). Loaded Objects now: 1867.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.720500 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.031800 ms MarkObjects: 2.548100 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57896.149301 seconds.
+  path: Assets/Setup
+  artifactKey: Guid(20377ddb10371b8489e99d49c50d813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Setup using Guid(20377ddb10371b8489e99d49c50d813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118135c3b088d02e6a2b0c43887c955c') in 0.006738 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.8 KB). Loaded Objects now: 1870.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.120900 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.932500 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.7 KB). Loaded Objects now: 1873.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.444800 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.261200 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 373.470629 seconds.
+  path: Assets/2.Scenes/TestScenes.unity
+  artifactKey: Guid(2cd62d6d22214af47b5a68d9327de8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scenes/TestScenes.unity using Guid(2cd62d6d22214af47b5a68d9327de8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feafcf7e7eb2828558a6618db145a707') in 0.012297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 253.330740 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(2b14013a3cddc4fc58fde2cd0b5d190a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(2b14013a3cddc4fc58fde2cd0b5d190a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fb56168d8a27722cb27c33cfc4d2c') in 0.006788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.380307 seconds.
+  path: Assets/2.Scenes/TestScenes.unity
+  artifactKey: Guid(2cd62d6d22214af47b5a68d9327de8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scenes/TestScenes.unity using Guid(2cd62d6d22214af47b5a68d9327de8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417001eae926a85b60f051740d847960') in 0.002495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.557491 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(8d12168658d814f06bd8bedf9a853afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(8d12168658d814f06bd8bedf9a853afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230e83fefb2ba083ca2ab0b6eca4af7') in 0.004613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.122006 seconds.
+  path: Assets/1.Scripts/Common
+  artifactKey: Guid(d3aa1a0e2e2eb4f2da31a02caf070180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scripts/Common using Guid(d3aa1a0e2e2eb4f2da31a02caf070180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193aa7c6f90a4379d8f15b3e3863e2c0') in 0.005512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.376952 seconds.
+  path: Assets/1.Scripts/Camera/ThirdPersonOrbitCam.cs
+  artifactKey: Guid(ad7b3c61221904d4b9633349e963dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scripts/Camera/ThirdPersonOrbitCam.cs using Guid(ad7b3c61221904d4b9633349e963dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624ce02996db4808a0b0770dcbcb536a') in 0.014809 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.7 KB). Loaded Objects now: 1876.
+Memory consumption went from 142.6 MB to 142.6 MB.
+Total: 2.318600 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.040800 ms MarkObjects: 2.149800 ms  DeleteObjects: 0.011900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.8 KB). Loaded Objects now: 1879.
+Memory consumption went from 142.6 MB to 142.6 MB.
+Total: 2.568100 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.391900 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (31.8 KB). Loaded Objects now: 1882.
+Memory consumption went from 142.6 MB to 142.6 MB.
+Total: 2.285400 ms (FindLiveObjects: 0.115900 ms CreateObjectMapping: 0.028700 ms MarkObjects: 2.126200 ms  DeleteObjects: 0.013800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3336.330521 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Char_Attach_Bag_Lvl1.prefab
+  artifactKey: Guid(b6d7a2a117800b744af81fdb32063854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Char_Attach_Bag_Lvl1.prefab using Guid(b6d7a2a117800b744af81fdb32063854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af74dc448437674d8062e48092592e7') in 0.120963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Glasses_01.prefab
+  artifactKey: Guid(e44a4778ba4b43644b663c9806f7bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Glasses_01.prefab using Guid(e44a4778ba4b43644b663c9806f7bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d18886b7bfca5943d3bc3657f6d18fc') in 0.018348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Captian_01.prefab
+  artifactKey: Guid(2c1fe3c317b1b9c478ba20712feb1953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Captian_01.prefab using Guid(2c1fe3c317b1b9c478ba20712feb1953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77627629b40b09ee4c723a6f5c84f68') in 0.017701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Fez_01.prefab
+  artifactKey: Guid(0bf010f3db9e87048a36ab32de6616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Fez_01.prefab using Guid(0bf010f3db9e87048a36ab32de6616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1021292946b931757c15f2cb7d579bd4') in 0.015887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Eyepatch_01.prefab
+  artifactKey: Guid(85fae00b99c7867478ff4c7757125421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Eyepatch_01.prefab using Guid(85fae00b99c7867478ff4c7757125421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ca056718149d83886d43e7f614dfe3') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Racoon_01.prefab
+  artifactKey: Guid(703daefb4575ac444a02524ae2b0552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Racoon_01.prefab using Guid(703daefb4575ac444a02524ae2b0552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093575710b0d3b5f236ef2b6c9f0a094') in 0.011390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Roadcone_01.prefab
+  artifactKey: Guid(b81d2b348895a064183f6679460eab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Roadcone_01.prefab using Guid(b81d2b348895a064183f6679460eab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd48e903f11342174ba539f1bdb23d24') in 0.012966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_05.prefab
+  artifactKey: Guid(cc17393021b954a4fb3b27e21d3275f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_05.prefab using Guid(cc17393021b954a4fb3b27e21d3275f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a0fea1b93b73743528ff8630aabe22') in 0.012842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Ammo_01.prefab
+  artifactKey: Guid(57829be128e387b4b94b08004197f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Ammo_01.prefab using Guid(57829be128e387b4b94b08004197f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29d417391f253e3a5b4ea27d4a6b090') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_03.prefab
+  artifactKey: Guid(3ceca72bcb48a4642bb4f845c93e2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_03.prefab using Guid(3ceca72bcb48a4642bb4f845c93e2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16794460f082e21b230586aacdad2c') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Cowboy_01.prefab
+  artifactKey: Guid(2b9f4eaf920953947b1fd5ea06fa1654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Cowboy_01.prefab using Guid(2b9f4eaf920953947b1fd5ea06fa1654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f048ab81fff444f752213734d9772b3') in 0.018840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Roman_01.prefab
+  artifactKey: Guid(74c1b9ace53c9b449a8ff95ab92b3503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Roman_01.prefab using Guid(74c1b9ace53c9b449a8ff95ab92b3503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32f2f274536e3683987a00160629685') in 0.018481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Facemask_03.prefab
+  artifactKey: Guid(28cc8ca255f77464f9425eedc7c947b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Facemask_03.prefab using Guid(28cc8ca255f77464f9425eedc7c947b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60d35682266dc36557518c22dbe5986') in 0.017444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Default_Hair_01.prefab
+  artifactKey: Guid(3722dd800daac424dac0695259ae2045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Default_Hair_01.prefab using Guid(3722dd800daac424dac0695259ae2045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b50690ab06342899e3ea7bf85a826eb') in 0.015712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Scarf_01.prefab
+  artifactKey: Guid(d7d0af54557dbed42a41afce056a102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Scarf_01.prefab using Guid(d7d0af54557dbed42a41afce056a102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa22feeb70c0a36bd4fcd59a327eaf2a') in 0.018477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_01.prefab
+  artifactKey: Guid(8abbb492a844c2149acba9f9a8a44632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_01.prefab using Guid(8abbb492a844c2149acba9f9a8a44632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c13a51edf229111939df6bf62521ed') in 0.015513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Cupcake_01.prefab
+  artifactKey: Guid(c3bedecc2865b814baeb28c58eef6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Cupcake_01.prefab using Guid(c3bedecc2865b814baeb28c58eef6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21d9c2bbaaef991f8cfef4f3021440') in 0.017561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_03.prefab
+  artifactKey: Guid(d9fde6557bd14fc4e8dda2514223d26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_03.prefab using Guid(d9fde6557bd14fc4e8dda2514223d26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39088c54cb0c52f5f63d6d933f682bb0') in 0.018507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Squid_01.prefab
+  artifactKey: Guid(6491c78cebfe38848bdaa31989231659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Squid_01.prefab using Guid(6491c78cebfe38848bdaa31989231659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86a998cdd3fd081d164fa0a497fa712') in 0.030036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Tacticle_01.prefab
+  artifactKey: Guid(1bfda60b2f8fdac47928353e6d287aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Tacticle_01.prefab using Guid(1bfda60b2f8fdac47928353e6d287aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84520db9043f61b9af714ed593541540') in 0.031704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab
+  artifactKey: Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab using Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30bb94b496ba5e734fdb7fd110ffc26') in 0.020274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab
+  artifactKey: Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab using Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8e5fcafef9cdb7a2282b3f2d9c00b5') in 0.015943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_FlatTop_01.prefab
+  artifactKey: Guid(6c60558da1cb0804b8f03e00cfb1218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_FlatTop_01.prefab using Guid(6c60558da1cb0804b8f03e00cfb1218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f13de5b5b978392a4d9bb7b4d8be3') in 0.023430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_01.prefab
+  artifactKey: Guid(de83cd92389c3bd4f97bcce0a9b2714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_01.prefab using Guid(de83cd92389c3bd4f97bcce0a9b2714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3d0ca8a8a423c4f5a9ad0769f76f29') in 0.015439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_07.prefab
+  artifactKey: Guid(2b3554e8e5bb72a49b25995c0af62a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_07.prefab using Guid(2b3554e8e5bb72a49b25995c0af62a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cca4a582d401e0b4875355e759dccef') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab
+  artifactKey: Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab using Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475c17d35eacca5b9660f2313fe1fdd8') in 0.012651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_03.prefab
+  artifactKey: Guid(cbcd1c298510d4c48b4bcf78775d2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_03.prefab using Guid(cbcd1c298510d4c48b4bcf78775d2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b9b5f9d7f914e3111ddcc0cf7cde75') in 0.013639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Turban_01.prefab
+  artifactKey: Guid(f60f244e507c14849bdaf645fd5232ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Turban_01.prefab using Guid(f60f244e507c14849bdaf645fd5232ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6140119eb1d1ad2b9cd7fbf6fe60762d') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_IceCream_01.prefab
+  artifactKey: Guid(818680f6ca257c542941f32c1463cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_IceCream_01.prefab using Guid(818680f6ca257c542941f32c1463cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd197a6602e08189720ec6eb3627eab7f') in 0.017813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab
+  artifactKey: Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab using Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a9ff2ac7050b3dd3505b426b4e986f') in 0.034687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Hair_Pigtails_01.prefab
+  artifactKey: Guid(16a173ed6513c8e4aac96133c5a5b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Hair_Pigtails_01.prefab using Guid(16a173ed6513c8e4aac96133c5a5b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9fafc44a2e48f63696c99f94cac792') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_07.prefab
+  artifactKey: Guid(19309ad8de603e442841465c06251a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_07.prefab using Guid(19309ad8de603e442841465c06251a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50a8442d11a124e247e61b77590321b') in 0.015331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab
+  artifactKey: Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab using Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d7bba68c203c0ae13f039bd3348e7e') in 0.012977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Crown_01.prefab
+  artifactKey: Guid(27507d8de33e3134490eadce78e2b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Crown_01.prefab using Guid(27507d8de33e3134490eadce78e2b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa765aa6ff41f0151a75dc01a73e1c') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_04.prefab
+  artifactKey: Guid(319a354f3ddbe06438efd554aa2c24f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_04.prefab using Guid(319a354f3ddbe06438efd554aa2c24f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b94eaf65b8ca5632ccbacc26a8bab5d') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_GasMask_01.prefab
+  artifactKey: Guid(4e45afc0577b26842ade918da7835882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_GasMask_01.prefab using Guid(4e45afc0577b26842ade918da7835882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a343b5896612e97d360dbeab182105e') in 0.015503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Bandana_01.prefab
+  artifactKey: Guid(a7c601e8d86bfd543aad62d3ed16d7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Bandana_01.prefab using Guid(a7c601e8d86bfd543aad62d3ed16d7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae9085cc62cd65704a1f19de8df429') in 0.017215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_01.prefab
+  artifactKey: Guid(30c70823f1352a34aa7e8a5b9abd8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_01.prefab using Guid(30c70823f1352a34aa7e8a5b9abd8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2604523231b791722808a2a8dea20623') in 0.018373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Elf_01.prefab
+  artifactKey: Guid(7813c71e3d2c0bd4c892b6c09f4c3153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Elf_01.prefab using Guid(7813c71e3d2c0bd4c892b6c09f4c3153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d6597e2e469348b424db861aed0bf1') in 0.017073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Default_Hair_01.prefab
+  artifactKey: Guid(1fe153fdea188ed4e892bb4c9972beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Default_Hair_01.prefab using Guid(1fe153fdea188ed4e892bb4c9972beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8899fb9c38605c8a76c5fc4ee53ecfc2') in 0.013814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_02.prefab
+  artifactKey: Guid(9e97aa60fb05bc54db3ac4c1ae34bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Male_Hair_02.prefab using Guid(9e97aa60fb05bc54db3ac4c1ae34bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecfc52476a93f6425db000473b88f10') in 0.019969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab
+  artifactKey: Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab using Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048fa6648899b26e2c7ee37d9873f2f1') in 0.011940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Hair_01.prefab
+  artifactKey: Guid(4297d9ba1d713a74eb0858fe39fc38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Female_Hair_01.prefab using Guid(4297d9ba1d713a74eb0858fe39fc38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a770abfe1371782af042e4955bf6c40f') in 0.012994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab
+  artifactKey: Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab using Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec6b2991a4f19cb349d458a58f2f30d') in 0.010832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_02.prefab
+  artifactKey: Guid(85622633d5d3be041b1046022b49ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Characters/Attachments/SM_Chr_Attach_Beard_02.prefab using Guid(85622633d5d3be041b1046022b49ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57ced16db012696cec3a19c5b9e2ea') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab
+  artifactKey: Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab using Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85507fe43ae0c6cae927e214ee12ba62') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.510932 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_01.prefab
+  artifactKey: Guid(08d1994c86c73d14eab3e6336b70f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_01.prefab using Guid(08d1994c86c73d14eab3e6336b70f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ab4f1662bb0a12ba7a5b452f54ac6c') in 0.012388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_01.prefab
+  artifactKey: Guid(d7beb5687da9e074fbb0455868c345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rock_01.prefab using Guid(d7beb5687da9e074fbb0455868c345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5f8e091b83c06aae1ba70468d3e5e6') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab
+  artifactKey: Guid(367c6fe1a26480944a9793eb305d824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab using Guid(367c6fe1a26480944a9793eb305d824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f88b938b3365b1836a5248791a91c0f') in 0.015457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_02.prefab
+  artifactKey: Guid(37141140a7d94c849a14e9e39fd9e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_02.prefab using Guid(37141140a7d94c849a14e9e39fd9e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761e989b95b7bf6c31b261fb0247495') in 0.008560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_01.prefab
+  artifactKey: Guid(37c3590bcdbc7c648ac2969b6b7a08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_01.prefab using Guid(37c3590bcdbc7c648ac2969b6b7a08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa8f0c4cbf739ffee7baaf9b598cc3') in 0.012380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_01.prefab
+  artifactKey: Guid(0d765ad87b911904c8136bcfcbab23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_01.prefab using Guid(0d765ad87b911904c8136bcfcbab23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49130ef527a0616f399bab9f7ce0e395') in 0.014598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Cross_01.prefab
+  artifactKey: Guid(e1573fe8f21982d4094eadc2e21d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Cross_01.prefab using Guid(e1573fe8f21982d4094eadc2e21d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b79cf711254d2d97925f4e5aa441f') in 0.014186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_02.prefab
+  artifactKey: Guid(1e085e653e87a0048b04e267a68b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_Straight_02.prefab using Guid(1e085e653e87a0048b04e267a68b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a260f3d5d6e599cdee5987d8678f1895') in 0.015576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab
+  artifactKey: Guid(cdc65718edf46c04a92b8ac282fe3896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab using Guid(cdc65718edf46c04a92b8ac282fe3896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70da2285c432e90ec2ace1fe08d02c9') in 0.009841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
+  artifactKey: Guid(40f4d454ca407bc4c961796fa8161151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab using Guid(40f4d454ca407bc4c961796fa8161151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776be18a420a2b32f3b0ffd3a664c002') in 0.013588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_01.prefab
+  artifactKey: Guid(91c4009e24cdf164dae56b43b3e1454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_01.prefab using Guid(91c4009e24cdf164dae56b43b3e1454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a724cf7ad70d511e12c575da62e7fe') in 0.011021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_T_01.prefab
+  artifactKey: Guid(1802cdb3d0fa94246908ed9fd379f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Road_T_01.prefab using Guid(1802cdb3d0fa94246908ed9fd379f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426216a7b426425ab6adc5088f5c1819') in 0.012743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab
+  artifactKey: Guid(a900a769f8a4af141813881cb1eb838c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab using Guid(a900a769f8a4af141813881cb1eb838c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2bbbc4e5b7dad585dba84f9fa4f0c7') in 0.009066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab
+  artifactKey: Guid(419aefbcec9e5084dac11a75d61d329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab using Guid(419aefbcec9e5084dac11a75d61d329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05abf6a18c974833d0419710e6eb2a0e') in 0.013866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab
+  artifactKey: Guid(cdcab699bf378d24dbdb4fd1db84fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab using Guid(cdcab699bf378d24dbdb4fd1db84fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f2124a4f4ad5154111cad41f0e1930') in 0.012125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_01.prefab
+  artifactKey: Guid(db8d0616d60ffdb42842cf3aea878066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Dock_01.prefab using Guid(db8d0616d60ffdb42842cf3aea878066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7611a1a27bc531f7115a139b097a0dd5') in 0.013134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab
+  artifactKey: Guid(2da28168743016746b5df127f2837a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab using Guid(2da28168743016746b5df127f2837a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f142ce57562c28c13ed02e41220f13a9') in 0.015774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab
+  artifactKey: Guid(2c86a933664634841bd2ebe81e0a2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab using Guid(2c86a933664634841bd2ebe81e0a2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913535a46f211fd3b4c745d109c52843') in 0.011452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab
+  artifactKey: Guid(20acbdb223166c04789016ac05735b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab using Guid(20acbdb223166c04789016ac05735b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7cb847c6405b94f7b23aa851e4223') in 0.010121 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
